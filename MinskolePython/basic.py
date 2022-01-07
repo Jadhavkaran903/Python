@@ -101,6 +101,7 @@ print(m)  # Return removed element
 print(color)
 
 print("---------------------------------------------------")
+
 #Date-6 jan 2022
 
 # Remove-Remove specific element in list
@@ -160,3 +161,121 @@ print(city,"Here jalna city is removerd")
 # Reverse
 city.reverse()
 print(city,"Here list of city reversed")
+
+print("---------------------------------------------------")
+
+#Date-7 jan 2022
+
+h="hello"
+
+print(h)
+print(h[0])
+print(h[len(h)-1])
+
+print("---------------------------------------------------")
+
+fruit="apple"
+
+print("________________Loop-1__________________")
+for char in fruit:
+    print(char)
+
+print("________________Loop-2__________________")
+for i in range(len(fruit)):
+    print(fruit[i])
+
+print("---------------------------------------------------")
+cityname="pune"
+
+aaa=cityname.upper()
+print(aaa)
+
+bbb=cityname.lower()
+print(bbb)
+
+kk=cityname.capitalize()
+print(kk)
+
+print("---------------------------------------------------")
+
+language="marathi"
+
+for item in language:
+    if item=="m":
+        print("letter found")
+    else:
+        print("letter not found")
+
+print("m" in language)
+
+print("---------------------------------------------------")
+
+fruits1="apple mango grapes chiku"
+if "mango" in fruits1:
+    print("mango found")
+
+if ("mango"in ["mango","grapes","apple","chiku"]):
+    print("fruit found !")
+
+print("---------------------------------------------------")
+# Count of letter in word
+city1="mumbai"
+
+kj=city1.count("m")
+print(kj)
+
+print("---------------------------------------------------")
+print("10000A".isnumeric())
+print("AADD111".isalnum())
+print("Aeeee".isalnum())
+
+print("---------------------------------------------------")
+
+# Count of vowels in string
+vowels="aaaaaaaebbbbbbbbwwwwwwwwwrrrrrreeeedafskgdshd"
+
+print("________________Method-1__________________")
+count=0
+for i in vowels:
+    if i=="a" or i=="e" or i=="i" or i=="o" or i=="u":
+        count=count+1
+print(count)
+
+print("________________Method-2__________________")
+count1=0
+for i in vowels:
+    if i in ["a","e","i","o","u"]:
+      count1=count1+1
+print(count1)
+
+print("---------------------------------------------------")
+print("amol".lstrip())
+print(len("amol"))
+print(len("amol".rstrip()))
+print("karan".strip())
+
+print("---------------------------------------------------")
+
+# Index of letter
+flower="lotus"
+print(flower.index("o"))
+
+hh="karanJadhav"
+for i in range(len(hh)):
+    if hh[i]=="J":
+     print(i)
+
+print("karan".startswith("kar"))
+print("jadhav".endswith("hav"))
+
+
+
+
+
+
+
+
+
+
+
+
